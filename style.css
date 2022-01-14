@@ -1,0 +1,80 @@
+body{
+    margin: 0 auto ;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display', serif;
+    margin-top: 35px;
+  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0px 100px; */
+    padding: 0px 100px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin-right: 15px;
+  
+   
+}
+
+/*--------------------------------------------------------------------------------------------------------------------
+                                                  main section stytles 
+ ---------------------------------------------------------------------------------------------------------------------*/
+ .influencer{
+     width: 80%;
+     display: flex;
+     justify-content: space-between;
+ }
+ .start-as-influencer{
+    width: 80%;
+    margin-top: 100px;
+    padding-left: 100px;
+    
+ }
+ .influencer .start-as-influencer h1{
+     font-size: 52px;
+     font-weight: bold;
+ }
+ .influencer .start-as-influencer p{
+    margin-bottom: 30px;
+ }
+ .influencer .start-as-influencer a{
+     text-decoration: none;
+     color: white;
+     background-color: #E02C6D;
+     padding: 12px  25px;
+     border-radius: 30px;
+     
+ }
+ .influencer-item{
+    width: 300px;
+    margin-top: 50px;
+ }
+
+
+ /*-----------------------------------------------------------------------------------------------------
+                                                      company-logo 
+  ------------------------------------------------------------------------------------------------------*/
+  .company{
+      width: 80%;
+      margin: 50px 120px;
+     
+  }
+  .company-logo{
+     
+      display: flex;
+      justify-content: center;
+     
+
+  }
+  .company-logo img{
+      padding: 20px 40px;
+  }
+
+  
+ /*-----------------------------------------------------------------------------------------------------
+                                                      Popular Collection 
+  ------------------------------------------------------------------------------------------------------*/
