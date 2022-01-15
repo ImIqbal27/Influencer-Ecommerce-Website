@@ -109,6 +109,16 @@ nav a {
     margin-left: 525px;
 }
 
+.popular>h4>a {
+    text-decoration: none;
+    color: #E02C6DDE;
+    font-size: 16px;
+
+    /* text-align: right; */
+    margin-left: 1070px;
+
+}
+
 .popular-collection {
     width: 1047px;
     display: grid;
@@ -256,12 +266,20 @@ nav a {
 
 
 @media (max-width: 420px) {
-    .company, .featured {
+    .company {
         display: none;
     }
 
     nav a {
         display: none;
+    }
+
+    #camera-description {
+        order: 2;
+    }
+
+    #camera-pic {
+        order: 1;
     }
 
     .mobile {
@@ -270,8 +288,13 @@ nav a {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .mobile>.start-as-influencer>h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
     .mobile .start-as-influencer {
-        width: 50%;
+        width: 80%;
         margin-right: 10px;
     }
 
@@ -280,6 +303,10 @@ nav a {
         height: auto;
         margin-left: 60px;
     }
+
+    
+
+
 
     .popular-collection {
         display: grid;
@@ -295,16 +322,29 @@ nav a {
     }
 
     .featured .featured-products-iamge {
-        width: 300px;
-        padding-left: 10px;
+        width: 50%;
 
+
+
+    }
+
+    #featured-image {
+        order: 2
+    }
+
+    #featured-description {
+        order: 1;
 
     }
 
     .featured-products-details {
-        width: 300px;
+        width: 200px;
         text-align: center;
-        padding-left: 10px;
+        margin-left: 0;
+        margin-bottom: 20px;
     }
+
+
+
 
 }
