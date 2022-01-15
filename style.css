@@ -22,11 +22,7 @@ nav a {
 
 }
 
-/* .container{
-    width: 870px;
-    padding: 30px;
-    border-radius: 5px;
-} */
+
 
 /*--------------------------------------------------------------------------------------------------------------------
                                                   main section stytles 
@@ -75,6 +71,12 @@ nav a {
     margin-top: 50px;
 }
 
+.influencer .influencer-item img:hover {
+    transform: scale(1.2);
+    transition: transform 2s ease-out;
+
+}
+
 
 /*-----------------------------------------------------------------------------------------------------
                                                       company-logo 
@@ -95,6 +97,12 @@ nav a {
 
 .company-logo img {
     padding: 20px 40px;
+}
+
+.company-logo img:hover {
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+
 }
 
 
@@ -125,6 +133,12 @@ nav a {
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     padding: 50px 150px 150px 150px;
+}
+
+.popular-collection-image img:hover {
+    transform: scale(1.2);
+    transition: transform 2s ease-out;
+
 }
 
 .popular-collection-details {
@@ -260,8 +274,12 @@ nav a {
 /*-------------------------------------------------------------------------------------------------------------------- 
                                             media queries 
 -------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
 /*------------------------------------- mobile device-------------------------------------------------------------- */
-/* Small Mobile = (420-320) = Extra-SM */
+
 
 
 
@@ -283,7 +301,7 @@ nav a {
     }
 
     .mobile {
-        width: 80%;
+        width: 80%; ////////
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -304,7 +322,7 @@ nav a {
         margin-left: 60px;
     }
 
-    
+
 
 
 
@@ -344,6 +362,79 @@ nav a {
         margin-bottom: 20px;
     }
 
+
+
+
+}
+
+
+
+/*------------------------------------- Tab device-------------------------------------------------------------- */
+
+@media (max-width:992px) {
+
+    .company .company-logo img {
+        display: flex;
+        width: 100%;
+    }
+
+
+
+
+    .tab {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tab>.start-as-influencer>h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .tab .start-as-influencer {
+        width: 80%;
+        margin-right: 10px;
+    }
+
+    .tab>.influencer-item>img {
+        width: 100%;
+        height: auto;
+        padding-left: 20px;
+        margin-left: 50px;
+    }
+
+
+
+
+    .popular-collection {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+
+    }
+
+    .featured {
+        width: 95%;
+        display: flex;
+
+    }
+
+    .featured .featured-products-iamge {
+        padding-top: 40px;
+        width: 50%;
+
+
+
+    }
+
+
+    .featured-products-details {
+        width: 200px;
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
 
 
 
