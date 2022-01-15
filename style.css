@@ -283,7 +283,7 @@ nav a {
 
 
 
-@media (max-width: 420px) {
+@media only screen and (max-width: 420px) {
     .company {
         display: none;
     }
@@ -371,7 +371,7 @@ nav a {
 
 /*------------------------------------- Tab device-------------------------------------------------------------- */
 
-@media (max-width:992px) {
+@media only screen and (min-width:421px) and (max-width:992px) {
 
     .company .company-logo img {
         display: flex;
