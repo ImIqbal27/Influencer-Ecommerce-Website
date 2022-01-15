@@ -301,7 +301,7 @@ nav a {
     }
 
     .mobile {
-        width: 80%; ////////
+        width: 80%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -316,7 +316,7 @@ nav a {
         margin-right: 10px;
     }
 
-    .mobile>influencer-item>img {
+    .mobile>.influencer-item>img {
         width: 70%;
         height: auto;
         margin-left: 60px;
@@ -381,23 +381,23 @@ nav a {
 
 
 
-    .tab {
+    .mobile {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .tab>.start-as-influencer>h1 {
+    .mobile>.start-as-influencer>h1 {
         font-size: 30px;
         font-weight: bold;
     }
 
-    .tab .start-as-influencer {
+    .mobile .start-as-influencer {
         width: 80%;
         margin-right: 10px;
     }
 
-    .tab>.influencer-item>img {
+    .mobile>.influencer-item>img {
         width: 100%;
         height: auto;
         padding-left: 20px;
