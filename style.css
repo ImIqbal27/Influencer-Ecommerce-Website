@@ -1,80 +1,213 @@
-body{
-    /* margin: 0 auto ; */
+body {
+    margin: 0 auto;
     font-family: 'Poppins', sans-serif;
     font-family: 'Playfair Display', serif;
     margin-top: 35px;
-  
+
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     /* margin: 0px 100px; */
     padding: 0px 100px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: black;
     font-size: 1.2em;
     margin-right: 15px;
-  
-   
+
+
 }
+
+/* .container{
+    width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+} */
 
 /*--------------------------------------------------------------------------------------------------------------------
                                                   main section stytles 
  ---------------------------------------------------------------------------------------------------------------------*/
- .influencer{
-     width: 80%;
-     display: flex;
-     justify-content: space-between;
- }
- .start-as-influencer{
+.influencer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.start-as-influencer {
     width: 80%;
     margin-top: 100px;
     padding-left: 100px;
-    
- }
- .influencer .start-as-influencer h1{
-     font-size: 52px;
-     font-weight: bold;
- }
- .influencer .start-as-influencer p{
+
+}
+
+.influencer .start-as-influencer h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.influencer .start-as-influencer p {
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
     margin-bottom: 30px;
- }
- .influencer .start-as-influencer a{
-     text-decoration: none;
-     color: white;
-     background-color: #E02C6D;
-     padding: 12px  25px;
-     border-radius: 30px;
-     
- }
- .influencer-item{
+}
+
+.influencer .start-as-influencer a {
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 12px 25px;
+    border-radius: 30px;
+
+}
+
+.influencer-item {
     width: 300px;
     margin-top: 50px;
- }
+}
 
 
- /*-----------------------------------------------------------------------------------------------------
+/*-----------------------------------------------------------------------------------------------------
                                                       company-logo 
   ------------------------------------------------------------------------------------------------------*/
-  .company{
-      width: 80%;
-      margin: 50px 120px;
-     
-  }
-  .company-logo{
-     
-      display: flex;
-      justify-content: center;
-     
+.company {
+    width: 80%;
+    margin: 50px 120px;
 
-  }
-  .company-logo img{
-      padding: 20px 40px;
-  }
+}
 
-  
- /*-----------------------------------------------------------------------------------------------------
+.company-logo {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.company-logo img {
+    padding: 20px 40px;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------
                                                       Popular Collection 
   ------------------------------------------------------------------------------------------------------*/
+.container h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 525px;
+}
+
+.popular-collection {
+    width: 1047px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    padding: 50px 150px 150px 150px;
+}
+
+.popular-collection-details {
+    background-color: white;
+    box-shadow: 10px 10px 40px lightgray;
+    width: 314px;
+    border-radius: 8px;
+    padding-left: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-bottom: 28px;
+}
+
+/* .popular-collection-image{
+       padding:14px;  
+      width: 300px ;
+  } */
+
+.popular-collection-details h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.popular-collection-details strong {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+    ;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+
+    ;
+}
+
+.popular-collection-details p {
+    color: #787885;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+
+/*-----------------------------------------------------------------------------------------------------
+                                                      Featured Products
+  ------------------------------------------------------------------------------------------------------*/
+.featured {
+    display: flex;
+    Width: 1110px;
+    padding-left: 143px;
+}
+
+.featured-products-iamge img {
+    Width: 404px;
+}
+
+.featured-products-details {
+    width: 610px;
+    padding-left: 55px;
+}
+
+.featured-products-details h2 {
+    color: 0A0826;
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+.featured-products-details p {
+    color: #6C6C6C;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.featured-products-details a {
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+}
